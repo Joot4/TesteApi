@@ -3,6 +3,7 @@ import ContractCode from '../views/ContractCode.vue'
 import Installments from '../views/Installments.vue'
 import PersonalData from '../views/PersonalData.vue'
 import Confirmation from '../views/Confirmation.vue'
+import PaymentData from '../views/PaymentData.vue'
 
 const routes = [
     {
@@ -19,11 +20,11 @@ const routes = [
         name: 'Dados Pessoais',
         component: PersonalData
     },
-    // {
-    //     path: '/dados-pagamento',
-    //     name: 'Dados do Pagamento',
-    //     component: PaymentData
-    // },
+    {
+        path: '/dados-pagamento',
+        name: 'Dados do Pagamento',
+        component: PaymentData
+    },
     {
         path: '/confirmacao',
         name: 'Pagamento Enviado',
