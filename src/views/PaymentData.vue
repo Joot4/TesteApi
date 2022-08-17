@@ -25,10 +25,11 @@
                                 <a href="#" class="card-navlink"><img src="../assets/visa.svg" alt=""></a>
                             </li>
                         </ul>
+                        <input type="checkbox" class="mb-4"> <p style="display:inline">Você deseja cadastrar esse pagamento como recorrente?</p>
                     </div>
                     <div class="form-fields">
                         <div class="mb-3">
-                            <label for="firstName" class="form-label">Nome <span>(Como está no cartão)</span><img src="src\assets\information.svg" alt=""></label>
+                            <label for="firstName" class="form-label">Nome <span>(Como está no cartão)</span> <img src="src\assets\information.svg" alt=""></label>
                             <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp">
                             <div id="firstNameHelp" class="form-text"></div>
                         </div>
