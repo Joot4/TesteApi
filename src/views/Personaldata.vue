@@ -13,25 +13,25 @@
                         <div class="mb-3">
                             <label for="firstName" class="form-label">Primeiro Nome</label>
                             <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp"
-                                v-bind="dadosPessoais.firstName">
+                                v-model="dadosPessoais.firstName">
                             <div id="firstNameHelp" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="lastName" class="form-label">Segundo Nome</label>
                             <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp"
-                            v-bind="dadosPessoais.lastName">
+                            v-model="dadosPessoais.lastName">
                             <div id="lastNameHelp" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="cpf" class="form-label">CPF</label>
                             <input type="text" class="form-control" id="cpf" aria-describedby="cpfHelp"
-                            :v-bind="dadosPessoais.cpf">
+                            :v-model="dadosPessoais.cpf">
                             <div id="cpfHelp" class="form-text"></div>
                         </div>
                         <div class="mb-3">
                             <label for="phone" class="form-label">Telefone</label>
                             <input type="text" class="form-control" id="phone" aria-describedby="phoneHelp"
-                            v-bind="dadosPessoais.telefone">
+                            v-model="dadosPessoais.telefone">
                             <div id="phoneHelp" class="form-text"></div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                         <div class="mb-3">
                             <label for="cep" class="form-label">CEP</label>
                             <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp"
-                            v-bind="dadosPessoais.dadosCobranca.cep">
+                            v-model="dadosPessoais.dadosCobranca.cep">
                             <div id="firstNameHelp" class="form-text"></div>
                         </div>
                         <div class="form-group">
@@ -59,7 +59,7 @@
                             <div style="width: 100%">
                                 <label for="city" class="form-label">Cidade</label>
                                 <input type="text" class="form-control" id="city" aria-describedby="cityHelp"
-                                v-bind="dadosPessoais.dadosCobranca.city">
+                                v-model="dadosPessoais.dadosCobranca.city">
                                 <div id="cityHelp" class="form-text"></div>
                             </div>
                         </div>
