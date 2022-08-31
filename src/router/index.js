@@ -4,6 +4,7 @@ import Installments from '../views/Installments.vue'
 import PersonalData from '../views/PersonalData.vue'
 import Confirmation from '../views/Confirmation.vue'
 import PaymentData from '../views/PaymentData.vue'
+import teste from '../views/teste.vue'
 
 const routes = [
     {
@@ -29,6 +30,11 @@ const routes = [
         path: '/confirmacao',
         name: 'Pagamento Enviado',
         component: Confirmation
+    },
+    {
+        path: '/teste',
+        name: 'Pagamento Enviado',
+        component: teste
     },
 ]
 

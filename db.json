@@ -1,0 +1,68 @@
+{
+  "dadosPessoais": [
+    {
+      "id": 1,
+      "primeiroNome": "João",
+      "segundoNome": "Silva",
+      "cpf": "25",
+      "telefone": "masculino",
+      "dadosCobranca": {
+        "cep": "João",
+        "uf": "Silva",
+        "cidade": "25",
+        "rua": "masculino",
+        "numero": "solteiro",
+        "complemento": "Rua dos Bobos, 0"
+      }
+    },
+    {
+      "nome": "",
+      "id": 2
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "cpf": "",
+      "telefone": "",
+      "dadosCobranca": {
+        "cep": "",
+        "uf": "",
+        "city": "",
+        "street": "",
+        "number": "",
+        "complement": ""
+      },
+      "id": 3
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "cpf": "",
+      "telefone": "",
+      "dadosCobranca": {
+        "cep": "",
+        "uf": "",
+        "city": "",
+        "street": "",
+        "number": "",
+        "complement": ""
+      },
+      "id": 4
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "cpf": "",
+      "telefone": "",
+      "dadosCobranca": {
+        "cep": "",
+        "uf": "",
+        "city": "",
+        "street": "",
+        "number": "",
+        "complement": ""
+      },
+      "id": 5
+    }
+  ]
+}
