@@ -25,7 +25,7 @@
                         <div class="mb-3">
                             <label for="cpf" class="form-label">CPF</label>
                             <input type="text" class="form-control" id="cpf" aria-describedby="cpfHelp"
-                            :value="dadosPessoais.cpf">
+                            :v-bind="dadosPessoais.cpf">
                             <div id="cpfHelp" class="form-text"></div>
                         </div>
                         <div class="mb-3">
